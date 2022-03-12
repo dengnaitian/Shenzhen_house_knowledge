@@ -1,4 +1,18 @@
-2022年起记录深圳购房知识，本着开源的精神，希望对大家也能有所帮助。启发来自这位[同学2020年](https://github.com/ayuer/shanghai_house_knowledge)上海购房分享以及[这位同学2017年杭州购房的分享](https://github.com/houshanren/hangzhou_house_knowledge)，本文也发布在Github上海购房知识汇总，欢迎有兴趣的同学Star和发PR来共同维护。
+2022年起记录深圳购房知识，本着开源的精神，希望对大家也能有所帮助。启发来自这位[同学2020年上海购房分享](https://github.com/ayuer/shanghai_house_knowledge)上海购房分享以及[这位同学2017年杭州购房的分享](https://github.com/houshanren/hangzhou_house_knowledge)，本文也发布在Github上海购房知识汇总，欢迎有兴趣的同学Star和发PR来共同维护。
+
+
+<table><tr><td bgcolor=red>
+-- 图片来自网络，侵权删
+
+-- 数据不保证安全准确，错误之处还望海涵，如需深入使用还望自己求证
+
+-- 买房有风险，投资需谨慎，资料内容不保证完全正确，使用需谨慎
+
+-- 文中会掺杂个人观点和看法，还请自己思考和判断其适用性和准确性
+ </td></tr></table>
+
+
+
 - [Part1](#part1)
   - [1.1 政府官网](#11-政府官网)
   - [1.2 教育解读](#12-教育解读)
