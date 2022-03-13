@@ -42,7 +42,8 @@
   
   -  [以留仙洞总部基地控制性详细规划为例子解读规划用地](http://pnr.sz.gov.cn/xxgk/gggs/content/post_6550235.html)
     ![image](https://user-images.githubusercontent.com/50006900/157460523-1e32fe48-c286-4d53-bf6d-2180e77af3cc.png)
-    
+    ![1647138864(1)](https://user-images.githubusercontent.com/50006900/158042413-8bdd1709-8a02-4d51-863d-516c9d849eda.jpg)
+
   *【如何通过政府规划用地解读用地性质】 通过看颜色可以分析出不同的用地规划。例如图中黄色的代表了住宅，紫色是学校。另外小区假如是靠近高级学校和高级商业用地那么潜在的升值空间大。但是得注意这个潜在的升值空间的溢价是不是已经体现在了当前的房价中。*     
 
 
