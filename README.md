@@ -61,7 +61,7 @@
   
 
 ## 1.2 教育解读
-
+  -[深圳四大名校B站解读](https://www.bilibili.com/video/BV1m34y117MA/)
 
 # Part2
 ## 2.1 房产属性
