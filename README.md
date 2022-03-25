@@ -66,6 +66,7 @@
 # Part2
 ## 2.1 房产发展史
   -[激荡三十年·房地产的功与过](https://www.bilibili.com/video/BV1HL411w7Zc)
+  -[黄奇帆谈中国房地产大变局](https://www.bilibili.com/video/BV1SL411w7kJ)
 
 
 
