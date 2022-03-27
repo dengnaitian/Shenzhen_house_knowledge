@@ -44,6 +44,7 @@
   - [深圳市政府规划用地](http://search.gd.gov.cn/search/local/755016?keywords=%E6%8E%A7%E5%88%B6%E6%80%A7%E8%AF%A6%E7%BB%86%E8%A7%84%E5%88%92) 
   - [深圳市存量住宅用地信息（截至2021年12月31日）](http://pnr.sz.gov.cn/xxgk/ztzl/rdzt/clzzyd/content/post_9510782.html)
   - [深圳市标定地价成果查询](http://pnr.sz.gov.cn/ywzy/qt/col_code/col_code/content/post_8586273.html)
+  - [深圳房产成交量](http://zjj.sz.gov.cn/xxgk/ztzl/pubdata/index.html)
 - 政策文件
   - [深圳市教育局关于做好2020年普通中小学招生入学工作的通知](http://szeb.sz.gov.cn/home/xxgk/zdlyxxgkzl/zcfgjjd/zcfg/content/post_8030314.html)
   ![image](https://user-images.githubusercontent.com/50006900/156781156-16d42872-eb05-4a8d-9550-1f3eb1adf212.png)
