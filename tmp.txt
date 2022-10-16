@@ -1,0 +1,189 @@
+-- The C compiler identification is Clang 13.0.1
+-- The CXX compiler identification is Clang 13.0.1
+-- Check for working C compiler: /usr/bin/clang-13
+-- Check for working C compiler: /usr/bin/clang-13 -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/clang++-13
+-- Check for working CXX compiler: /usr/bin/clang++-13 -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- iwyu_path /usr/bin/iwyu
+-- CMAKE_PREFIX_PATH is: /usr/local/proto-3.13.0/include;/usr/local/proto-3.13.0/bin;/usr/local/proto-3.13.0/lib
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Protobuf: /usr/local/proto-3.13.0/lib/libprotobuf.so;-lpthread (found version "3.13.0") 
+-- PrivateDta_PROTO_SRCS is: /home/dnt/Documents/protoTest/build/protoc/private_data_proto.pb.cc /home/dnt/Documents/protoTest/build/protoc/private_data_proto.pb.h
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dnt/Documents/protoTest/build
+[ 14%] Running C++ protocol buffer compiler on /home/dnt/Documents/protoTest/build/../protoc/private_data_proto.proto
+Scanning dependencies of target privateDataProto
+[ 28%] Building CXX object protoc/CMakeFiles/privateDataProto.dir/private_data_proto.pb.cc.o
+Warning: include-what-you-use reported diagnostics:
+
+/home/dnt/Documents/protoTest/build/protoc/private_data_proto.pb.h should add these lines:
+#include <google/protobuf/stubs/logging.h>                   // for PROTOBUF...
+#include <stddef.h>                                          // for size_t
+#include <utility>                                           // for move
+#include "google/protobuf/extension_set.h"
+#include "google/protobuf/message_lite.h"                    // for GetEmpty...
+#include "google/protobuf/repeated_field.h"                  // for Repeated...
+#include "google/protobuf/stubs/logging.h"                   // for LogFinisher
+#include "google/protobuf/stubs/port.h"                      // for int32
+#include "google/protobuf/stubs/stringpiece.h"               // for StringPiece
+namespace google { namespace protobuf { class Descriptor; } }
+namespace google { namespace protobuf { namespace internal { class ParseContext; } } }
+namespace google { namespace protobuf { namespace io { class EpsCopyOutputStream; } } }
+
+/home/dnt/Documents/protoTest/build/protoc/private_data_proto.pb.h should remove these lines:
+- #include <google/protobuf/inlined_string_field.h>  // lines 28-28
+- #include <google/protobuf/io/coded_stream.h>  // lines 23-23
+- #include <google/protobuf/metadata_lite.h>  // lines 29-29
+- #include <google/protobuf/unknown_field_set.h>  // lines 34-34
+- #include <google/protobuf/port_def.inc>  // lines 10-10
+- #include <google/protobuf/port_def.inc>  // lines 36-36
+- #include <google/protobuf/port_undef.inc>  // lines 22-22
+- #include <google/protobuf/port_undef.inc>  // lines 553-553
+- #include <limits>  // lines 7-7
+- namespace privateData { class StudentDefaultTypeInternal; }  // lines 59-59
+- namespace privateData { class Student_PhoneNumberDefaultTypeInternal; }  // lines 62-62
+
+The full include-list for /home/dnt/Documents/protoTest/build/protoc/private_data_proto.pb.h:
+#include <google/protobuf/arena.h>                           // for Arena
+#include <google/protobuf/arenastring.h>                     // for ArenaStr...
+#include <google/protobuf/extension_set.h>
+#include <google/protobuf/generated_message_reflection.h>    // for AssignDe...
+#include <google/protobuf/generated_message_table_driven.h>  // for Auxiliar...
+#include <google/protobuf/generated_message_util.h>          // for GenericSwap
+#include <google/protobuf/message.h>                         // for Metadata
+#include <google/protobuf/repeated_field.h>
+#include <google/protobuf/stubs/logging.h>                   // for PROTOBUF...
+#include <stddef.h>                                          // for size_t
+#include <string>                                            // for string
+#include <utility>                                           // for move
+#include "google/protobuf/extension_set.h"
+#include "google/protobuf/message_lite.h"                    // for GetEmpty...
+#include "google/protobuf/repeated_field.h"                  // for Repeated...
+#include "google/protobuf/stubs/logging.h"                   // for LogFinisher
+#include "google/protobuf/stubs/port.h"                      // for int32
+#include "google/protobuf/stubs/stringpiece.h"               // for StringPiece
+namespace google { namespace protobuf { class Descriptor; } }
+namespace google { namespace protobuf { namespace internal { class AnyMetadata; } } }  // lines 40-40
+namespace google { namespace protobuf { namespace internal { class ParseContext; } } }
+namespace google { namespace protobuf { namespace io { class EpsCopyOutputStream; } } }
+namespace privateData { class Student::_Internal; }  // lines 375-375
+namespace privateData { class Student; }  // lines 58-58
+namespace privateData { class Student_PhoneNumber::_Internal; }  // lines 216-216
+namespace privateData { class Student_PhoneNumber; }  // lines 61-61
+---
+
+/home/dnt/Documents/protoTest/build/protoc/private_data_proto.pb.cc should add these lines:
+#include <atomic>                                          // for ATOMIC_VAR...
+#include <new>                                             // for operator new
+#include "google/protobuf/arena.h"                         // for Arena
+#include "google/protobuf/arenastring.h"                   // for ArenaStrin...
+#include "google/protobuf/generated_message_util.h"        // for SCCInfo
+#include "google/protobuf/message.h"                       // for DynamicCas...
+#include "google/protobuf/metadata_lite.h"                 // for InternalMe...
+#include "google/protobuf/parse_context.h"                 // for ParseContext
+#include "google/protobuf/stubs/common.h"                  // for GOOGLE_PRO...
+#include "google/protobuf/stubs/once.h"                    // for once_flag
+#include "google/protobuf/unknown_field_set.h"             // for UnknownFie...
+namespace google { namespace protobuf { class EnumDescriptor; } }
+namespace google { namespace protobuf { class ServiceDescriptor; } }
+
+/home/dnt/Documents/protoTest/build/protoc/private_data_proto.pb.cc should remove these lines:
+- #include <google/protobuf/descriptor.h>  // lines 11-11
+- #include <google/protobuf/extension_set.h>  // lines 9-9
+- #include <algorithm>  // lines 6-6
+- #include <google/protobuf/port_def.inc>  // lines 16-16
+- #include <google/protobuf/port_undef.inc>  // lines 590-590
+
+The full include-list for /home/dnt/Documents/protoTest/build/protoc/private_data_proto.pb.cc:
+#include "private_data_proto.pb.h"
+#include <google/protobuf/generated_message_reflection.h>  // for AddDescrip...
+#include <google/protobuf/io/coded_stream.h>               // for EpsCopyOut...
+#include <google/protobuf/reflection_ops.h>                // for ReflectionOps
+#include <google/protobuf/wire_format.h>                   // for ComputeUnk...
+#include <google/protobuf/wire_format_lite.h>              // for WireFormat...
+#include <atomic>                                          // for ATOMIC_VAR...
+#include <new>                                             // for operator new
+#include "google/protobuf/arena.h"                         // for Arena
+#include "google/protobuf/arenastring.h"                   // for ArenaStrin...
+#include "google/protobuf/generated_message_util.h"        // for SCCInfo
+#include "google/protobuf/message.h"                       // for DynamicCas...
+#include "google/protobuf/metadata_lite.h"                 // for InternalMe...
+#include "google/protobuf/parse_context.h"                 // for ParseContext
+#include "google/protobuf/stubs/common.h"                  // for GOOGLE_PRO...
+#include "google/protobuf/stubs/once.h"                    // for once_flag
+#include "google/protobuf/unknown_field_set.h"             // for UnknownFie...
+namespace google { namespace protobuf { class EnumDescriptor; } }
+namespace google { namespace protobuf { class ServiceDescriptor; } }
+---
+
+[ 42%] Linking CXX shared library libprivateDataProto.so
+[ 42%] Built target privateDataProto
+Scanning dependencies of target private_data
+[ 57%] Building CXX object src/CMakeFiles/private_data.dir/data_service.cpp.o
+Warning: include-what-you-use reported diagnostics:
+
+/home/dnt/Documents/protoTest/include/data_service.h should add these lines:
+#include <stdint.h>  // for uint8_t
+namespace privateData { class Student; }
+
+/home/dnt/Documents/protoTest/include/data_service.h should remove these lines:
+- #include "private_data_proto.pb.h"  // lines 5-5
+
+The full include-list for /home/dnt/Documents/protoTest/include/data_service.h:
+#include <stdint.h>  // for uint8_t
+#include <string>    // for string
+#include <vector>    // for vector
+#include "test.h"    // for NUM_FIVE
+namespace privateData { class Student; }
+---
+
+/home/dnt/Documents/protoTest/src/data_service.cpp should add these lines:
+#include <algorithm>                // for copy, max
+#include "private_data_proto.pb.h"  // for Student, Student_PhoneNumber
+
+/home/dnt/Documents/protoTest/src/data_service.cpp should remove these lines:
+- #include <math.h>  // lines 5-5
+
+The full include-list for /home/dnt/Documents/protoTest/src/data_service.cpp:
+#include "data_service.h"
+#include <algorithm>                // for copy, max
+#include <iostream>                 // for operator<<, endl, basic_ostream
+#include <string>                   // for operator<<, string, char_traits
+#include <vector>                   // for vector
+#include "private_data_proto.pb.h"  // for Student, Student_PhoneNumber
+---
+
+[ 71%] Linking CXX shared library libprivate_data.so
+[ 71%] Built target private_data
+Scanning dependencies of target protoTest
+[ 85%] Building CXX object CMakeFiles/protoTest.dir/main.cpp.o
+Warning: include-what-you-use reported diagnostics:
+
+/home/dnt/Documents/protoTest/main.cpp should add these lines:
+
+/home/dnt/Documents/protoTest/main.cpp should remove these lines:
+- #include <vector>  // lines 2-2
+
+The full include-list for /home/dnt/Documents/protoTest/main.cpp:
+#include "data_service.h"  // for printHolleWorld
+---
+
+[100%] Linking CXX executable protoTest
+[100%] Built target protoTest
